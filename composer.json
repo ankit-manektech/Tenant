@@ -1,10 +1,10 @@
 {
-    "name": "flood/tenant",
+    "name": "tenant/flood",
     "description": "Multi-tenancy for Laravel.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ankit"
+            "name": "Ankit Shah"
         }
     ],
     "require": {
