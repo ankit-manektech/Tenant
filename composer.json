@@ -1,0 +1,29 @@
+{
+    "name": "flood/tenant",
+    "description": "Multi-tenancy for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ankit"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.5 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flood\\Tenant\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flood\\Tenant\\Providers\\TenantServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
